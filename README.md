@@ -5,5 +5,6 @@
 
 [![hexlet-check](https://github.com/dannygrech/python-project-lvl1/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/dannygrech/python-project-lvl1/actions/workflows/hexlet-check.yml)
 
-https://asciinema.org/a/XaBE1luXUjMhH8TLMJudcVEDg
-https://asciinema.org/a/5njRuQXDCYaRaidnJoA6dYSZX
+https://asciinema.org/a/XaBE1luXUjMhH8TLMJudcVEDg #brain-even
+https://asciinema.org/a/5njRuQXDCYaRaidnJoA6dYSZX #bain-calc
+https://asciinema.org/a/AwZjByeiToDpG5pBTv3oRLXWt #brain-gcd
