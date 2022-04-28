@@ -6,3 +6,4 @@
 [![hexlet-check](https://github.com/dannygrech/python-project-lvl1/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/dannygrech/python-project-lvl1/actions/workflows/hexlet-check.yml)
 
 https://asciinema.org/a/XaBE1luXUjMhH8TLMJudcVEDg
+https://asciinema.org/a/5njRuQXDCYaRaidnJoA6dYSZX

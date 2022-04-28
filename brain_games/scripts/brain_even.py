@@ -3,19 +3,15 @@ import random
 
 
 def main():
-    print('Welcome to the Brain Games!')
+    print('Welcome to The Brain Games!')
     name = prompt.string('May I have your name? ')
-    print('Hello, ' + name + '!')
     print('Answer "yes" if the number is even, otherwise answer "no".')
-
-
-
     count = 0
     while count <= 2:
         question = random.randint(1, 30)
-        print(question)
+        print(f'Question:{question}')
         
-        anwser = prompt.string('Your answer:')
+        anwser = prompt.string('Your answer:').lower()
         
         if question % 2 == 0 and anwser == 'yes':
             print('Correct!')
