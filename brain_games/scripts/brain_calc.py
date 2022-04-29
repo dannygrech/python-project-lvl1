@@ -6,7 +6,7 @@ def main():
     print('Welcome to The Brain Games!')
     name = prompt.string('May I have your name? ')
     count = 0
-    while count <=2:
+    while count <= 2:
         operator = random.choice(['+', '-', '*'])
         n1 = random.randrange(21)
         n2 = random.randrange(21)
@@ -19,7 +19,7 @@ def main():
             if str(result) == str(answer):
                 print('Correct!')
                 count = count + 1
-            else: 
+            else:
                 print(f'{answer} is the wrong answer;(. Correct answer is {result}')
                 print('Lets try again')
         elif operator == '-':
@@ -27,7 +27,7 @@ def main():
             if str(result) == str(answer):
                 print('Correct!')
                 count = count + 1
-            else: 
+            else:
                 print(f'{answer} is the wrong answer;(. Correct answer is {result}')
                 print('Lets try again')
         elif operator == '*':
@@ -35,12 +35,8 @@ def main():
             if str(result) == str(answer):
                 print('Correct!')
                 count = count + 1
-            else: 
+            else:
                 print(f'{answer} is the wrong answer;(. Correct answer is {result}')
                 print('Lets try again')
 
     print(f'Congratulations, {name}!')
-
-
-
-

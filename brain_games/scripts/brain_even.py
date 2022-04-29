@@ -10,9 +10,9 @@ def main():
     while count <= 2:
         question = random.randint(1, 30)
         print(f'Question:{question}')
-        
+
         anwser = prompt.string('Your answer:').lower()
-        
+
         if question % 2 == 0 and anwser == 'yes':
             print('Correct!')
             count = count + 1
@@ -27,7 +27,8 @@ def main():
                 print(anwser + ' is the wrong answer ;(. Correct answer was "no".')
                 print('Lets try again')
 
-    print ('Congratulations, ' + name + '!')
+    print('Congratulations, ' + name + '!')
+
 
 if __name__ == '__main__':
     main()
