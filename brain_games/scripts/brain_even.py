@@ -9,7 +9,7 @@ def main():
     count = 0
     while count <= 2:
         question = random.randint(1, 30)
-        print(f'Question:{question}')
+        print(f'Question: {question}')
 
         anwser = prompt.string('Your answer:').lower()
 
