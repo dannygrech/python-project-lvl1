@@ -26,7 +26,7 @@ def main():
             elif anwser != 'no':
                 print(anwser + ' is the wrong answer ;(. Correct answer was "no".')
                 print('Lets try again')
-                quit()
+            quit()
 
     print('Congratulations, ' + name + '!')
 
