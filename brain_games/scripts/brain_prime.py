@@ -29,5 +29,6 @@ def main():
             count = count + 1
         else:
             print(f'Try again, {name}')
+            quit()
 
     print(f'Congratulations, {name}!')

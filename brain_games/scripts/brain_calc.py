@@ -38,5 +38,6 @@ def main():
             else:
                 print(f'{answer} is the wrong answer;(. Correct answer is {result}')
                 print('Lets try again')
+                quit()
 
     print(f'Congratulations, {name}!')

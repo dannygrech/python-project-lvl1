@@ -21,5 +21,6 @@ def main():
         else:
             print(f'{answer} is wrong answer. Correct answer was {right_ans}.')
             print(f'Try again, {name}')
+            quit()
 
     print(f'Congratulations, {name}!')
