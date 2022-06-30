@@ -5,16 +5,11 @@
 
 [![hexlet-check](https://github.com/dannygrech/python-project-lvl1/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/dannygrech/python-project-lvl1/actions/workflows/hexlet-check.yml)
 
-<<<<<<< HEAD
+
 <a href="https://asciinema.org/a/LeP2c4hdhqzFoZyO4yWJDRKOE" target="_blank"><img src="https://asciinema.org/a/LeP2c4hdhqzFoZyO4yWJDRKOE.svg" /></a> #brain-even
 <a href="https://asciinema.org/a/AUkastTMYTVd8V7o7o6Iha1mj" target="_blank"><img src="https://asciinema.org/a/AUkastTMYTVd8V7o7o6Iha1mj.svg" /></a> #bain-calc
 <a href="https://asciinema.org/a/oa6aZkjq2GVx0fwXv7lr1J97f" target="_blank"><img src="https://asciinema.org/a/oa6aZkjq2GVx0fwXv7lr1J97f.svg" /></a> #brain-gcd
 <a href="https://asciinema.org/a/NGIXuZjkUyLCry1QHtvz72JpE" target="_blank"><img src="https://asciinema.org/a/NGIXuZjkUyLCry1QHtvz72JpE.svg" /></a> #brain-progression
 <a href="https://asciinema.org/a/K2L2O3ldbaX2mV8Nu1YQWvmay" target="_blank"><img src="https://asciinema.org/a/K2L2O3ldbaX2mV8Nu1YQWvmay.svg" /></a> #brain-prime
-=======
-<a href="https://asciinema.org/a/LeP2c4hdhqzFoZyO4yWJDRKOE" target="_blank"><img src="https://asciinema.org/a/LeP2c4hdhqzFoZyO4yWJDRKOE.svg" /></a>#brain-even
-https://asciinema.org/a/5njRuQXDCYaRaidnJoA6dYSZX #bain-calc
-https://asciinema.org/a/AwZjByeiToDpG5pBTv3oRLXWt #brain-gcd
-https://asciinema.org/a/j234Swy0Trw6W71JySvtsvYcl #brain-progression
-https://asciinema.org/a/XI0uo8rItKXDpozT1txBZPiWm #brain-prime
->>>>>>> ab9264cfbaeb273cdd45da94897a388e217380ae
+
+
