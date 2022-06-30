@@ -12,6 +12,14 @@ pycodestyle = ">=2.8.0,<2.9.0"
 pyflakes = ">=2.4.0,<2.5.0"
 
 [[package]]
+name = "makefile"
+version = "1.1.0"
+description = "makefile is python package to read makefile variables"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "mccabe"
 version = "0.6.1"
 description = "McCabe checker, plugin for flake8"
@@ -46,12 +54,16 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10.4"
-content-hash = "023a45ce197a5f966fd68d5cfe0418fc35fca1fe4c1f089fb54e0db252390c02"
+content-hash = "9be0530ff63a3cebfa7905c1e54b0b5170e24c58b401179062810ec1000f2a68"
 
 [metadata.files]
 flake8 = [
     {file = "flake8-4.0.1-py2.py3-none-any.whl", hash = "sha256:479b1304f72536a55948cb40a32dce8bb0ffe3501e26eaf292c7e60eb5e0428d"},
     {file = "flake8-4.0.1.tar.gz", hash = "sha256:806e034dda44114815e23c16ef92f95c91e4c71100ff52813adf7132a6ad870d"},
+]
+makefile = [
+    {file = "makefile-1.1.0-py3-none-any.whl", hash = "sha256:0ce3c081041b8e933dd1a60ed54e9c12a1296a98f6f2c3808a375778b760d02d"},
+    {file = "makefile-1.1.0.tar.gz", hash = "sha256:e311d56f4535793f48416e0d7134f4d77c7633ee10bed8e00f0dc2962cecff66"},
 ]
 mccabe = [
     {file = "mccabe-0.6.1-py2.py3-none-any.whl", hash = "sha256:ab8a6258860da4b6677da4bd2fe5dc2c659cff31b3ee4f7f5d64e79735b80d42"},
