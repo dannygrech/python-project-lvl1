@@ -21,10 +21,12 @@ def main():
             count = count + 1
         else:
             if anwser != 'yes':
-                print(anwser + ' is the wrong answer ;(. Correct answer was "yes".')
+                print(anwser + ' is the wrong answer ;(. \
+                    Correct answer was "yes".')
                 print('Lets try again')
             elif anwser != 'no':
-                print(anwser + ' is the wrong answer ;(. Correct answer was "no".')
+                print(anwser + ' is the wrong answer ;(.\
+                     Correct answer was "no".')
                 print('Lets try again')
             quit()
 

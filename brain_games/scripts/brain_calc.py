@@ -20,7 +20,8 @@ def main():
                 print('Correct!')
                 count = count + 1
             else:
-                print(f'{answer} is the wrong answer;(. Correct answer is {result}')
+                print(f'{answer} is the wrong answer;(. \
+                    Correct answer is {result}')
                 print('Lets try again')
         elif operator == '-':
             result = n1 - n2
@@ -28,7 +29,8 @@ def main():
                 print('Correct!')
                 count = count + 1
             else:
-                print(f'{answer} is the wrong answer;(. Correct answer is {result}')
+                print(f'{answer} is the wrong answer;(. \
+                    Correct answer is {result}')
                 print('Lets try again')
         elif operator == '*':
             result = n1 * n2
@@ -36,7 +38,8 @@ def main():
                 print('Correct!')
                 count = count + 1
             else:
-                print(f'{answer} is the wrong answer;(. Correct answer is {result}')
+                print(f'{answer} is the wrong answer;(. \
+                    Correct answer is {result}')
                 print('Lets try again')
                 quit()
 
