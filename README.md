@@ -12,7 +12,4 @@
 <a href="https://asciinema.org/a/NGIXuZjkUyLCry1QHtvz72JpE" target="_blank"><img src="https://asciinema.org/a/NGIXuZjkUyLCry1QHtvz72JpE.svg" /></a> #brain-progression
 <a href="https://asciinema.org/a/K2L2O3ldbaX2mV8Nu1YQWvmay" target="_blank"><img src="https://asciinema.org/a/K2L2O3ldbaX2mV8Nu1YQWvmay.svg" /></a> #brain-prime
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 09d3269d92d52e2ce51941dd56a7238bf467f6fgit d
