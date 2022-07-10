@@ -16,6 +16,9 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
         # make depends on poetry
+      - name: Install poetry
+        run: |
+          pip install poetry
       - name: Install dependencies
         run: |
           make install
