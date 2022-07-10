@@ -19,6 +19,9 @@ jobs:
       - name: Install poetry
         run: |
           pip install poetry
+      - name: build
+        run: |
+          poetry build
       - name: Install dependencies
         run: |
           make install
