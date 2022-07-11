@@ -1,15 +1,14 @@
 import prompt
+
 from brain_games.scripts import brain_games
 
 ROUNDS_COUNT = 3
-
-name = brain_games.main()
-print('Hello' + name + '!')
 
 
 def run(games):
     print(games.DESCRIPTION)
     count = ROUNDS_COUNT
+    name = brain_games.main()
     while count:
         question, correct_answer = games.generate_data()
         print(f'Question: {question}')
@@ -22,6 +21,4 @@ def run(games):
                   f' Correct answer is "{correct_answer}"')
             print(f'Try again,{name}!')
             break
-
-
-print(f'Congratulations, {name}!')
+        print(f"Congratulations, {name}!")
