@@ -6,9 +6,9 @@ ROUNDS_COUNT = 3
 
 
 def run(games):
-    print(games.DESCRIPTION)
     count = ROUNDS_COUNT
     name = brain_games.main()
+    print(games.DESCRIPTION)
     while count:
         question, correct_answer = games.generate_data()
         print(f'Question: {question}')
@@ -21,9 +21,4 @@ def run(games):
                   f' Correct answer is "{correct_answer}"')
             print(f'Try again,{name}!')
             break
-<<<<<<< HEAD
-        print(f"Congratulations, {name}!")
-=======
-            
-print(f'Congratulations, {name}!')
->>>>>>> refs/remotes/origin/main
+    print(f"Congratulations, {name}!")
