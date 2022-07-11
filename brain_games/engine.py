@@ -21,4 +21,9 @@ def run(games):
                   f' Correct answer is "{correct_answer}"')
             print(f'Try again,{name}!')
             break
+<<<<<<< HEAD
         print(f"Congratulations, {name}!")
+=======
+            
+print(f'Congratulations, {name}!')
+>>>>>>> refs/remotes/origin/main
