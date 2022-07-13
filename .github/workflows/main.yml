@@ -18,7 +18,7 @@ jobs:
         # make depends on poetry
       - name: Install dependencies
         run: |
-          poetry install
+          pip install poetry
       - name: Run linter and pytest
         run: |
           make lint
