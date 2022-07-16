@@ -11,6 +11,5 @@ def generate_data():
     miss_num = random.randint(0, 9)
     correct_answer = str(array[miss_num])
     array[miss_num] = '..'
-        question = str(array).replace('[', '').replace(']', '').\
-        replace("'", '').replace(',', '')
+    question = str(array).replace('[', '').replace(']', '').replace("'", '').replace(',', '')
     return question, correct_answer
