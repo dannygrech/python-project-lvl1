@@ -15,5 +15,3 @@ def generate_data():
     question = random.randint(1, 50)
     correct_answer = 'yes' if is_prime(question) else 'no'
     return question, correct_answer
-
-
