@@ -5,6 +5,10 @@
 
 [![hexlet-check](https://github.com/dannygrech/python-project-lvl1/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/dannygrech/python-project-lvl1/actions/workflows/hexlet-check.yml)
 
+Brain Games is the set of short games which give you a win if you give three correct answers in a row.
+
+Created via Python
+
 
 <a href="https://asciinema.org/a/LeP2c4hdhqzFoZyO4yWJDRKOE" target="_blank"><img src="https://asciinema.org/a/LeP2c4hdhqzFoZyO4yWJDRKOE.svg" /></a> #brain-even
 <a href="https://asciinema.org/a/AUkastTMYTVd8V7o7o6Iha1mj" target="_blank"><img src="https://asciinema.org/a/AUkastTMYTVd8V7o7o6Iha1mj.svg" /></a> #bain-calc
