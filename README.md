@@ -5,7 +5,9 @@
 
 [![hexlet-check](https://github.com/dannygrech/python-project-lvl1/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/dannygrech/python-project-lvl1/actions/workflows/hexlet-check.yml)
 
-Brain Games is the set of short games which give you a win if you give three correct answers in a row.
+Brain Games is the set of short games which give you a win if you give three correct answers in a row. The games are based on simple mathematical computations. To run each game a player has to type the name of the game. 
+
+Names and examples are given below.
 
 Created via Python
 
