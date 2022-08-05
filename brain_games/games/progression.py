@@ -2,15 +2,27 @@ import random
 
 DESCRIPTION = 'What number is missing in the progression?'
 
+PROGRESSION_LENGTH = 10
+
+
+def get_question(init_value, step_value, hidden_index):
+    question = ''
+    count = 0
+    while count < PROGRESSION_LENGTH:
+        if count > 0:
+            question += ' '
+        if count == hidden_index:
+            question += '..'
+        else:
+            question += str(init_value + step_value * count)
+        count += 1
+    return question
+
 
 def generate_data():
-    start_num = random.randint(1, 10)
-    step_num = random.randint(1, 10)
-    stop_num = step_num * 10 + start_num
-    array = list(range(start_num, stop_num, step_num))
-    miss_num = random.randint(0, 9)
-    correct_answer = str(array[miss_num])
-    array[miss_num] = '..'
-    question = (str(array).replace('[', '').replace(']', '')
-                .replace("'", '').replace(',', ''))
+    init_value = random.randint(1, 10)
+    step_value = random.randint(1, 10)
+    hidden_index = random.randint(0, 9)
+    question = get_question(init_value, step_value, hidden_index)
+    correct_answer = str(step_value * hidden_index + init_value)
     return question, correct_answer
